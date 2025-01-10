@@ -47,3 +47,44 @@ for(let i = 1950; i <= 2030; i++) {
 
 
 
+let alunos = [
+    'levy',
+    'fabio',
+    'alexandra',
+]
+
+alunos.push('thayanne')
+alunos.push('lucilene')
+alunos.push('murillo');
+
+alunos.sort()
+
+
+
+const alfabeto = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+
+// Vai percorrer o tamanho do array
+for(let a = 0; i <= alunos.length; i++) {
+    // Irá percorrer todo o alfabeoto comparando cada letra com a inical de cada palavra
+    for(let i = 0; i <= alfabeto.length; i++) {
+        let inicial = alunos[a]
+        console.log(inicial);
+        
+        let letra = inicial.charAt()
+        // console.log(letra);
+        
+        console.log(alfabeto[i]);
+        
+        if(letra == alfabeto[i]) {
+            console.log('aqui');
+            document.write(alunos[a] + "<br>")
+
+        }
+
+    }
+}
+
+
+  
+  
+
